@@ -18,7 +18,12 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            /**
+             SwiftUI view를 customize 하기 위해서는 modifiers라는 method를 호출한다. Modifiers는 그것의 display를 바꾸거나 다른 property들을 바꾸기 위해 view를 감싼다. 각각의 modifier는 새로운 view를 반환하고, 그렇기 때문에 여러개의 modifier들을 chain하는 것이 일반적이다.
+             */
+            Text("Turtle Rock")
+                .font(.title)
+                .foregroundColor(.green)
         }
         .padding()
     }
