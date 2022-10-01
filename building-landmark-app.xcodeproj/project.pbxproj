@@ -12,6 +12,7 @@
 		0178D5CC28E89C8A00C4C63B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0178D5CB28E89C8A00C4C63B /* Assets.xcassets */; };
 		0178D5CF28E89C8A00C4C63B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0178D5CE28E89C8A00C4C63B /* Preview Assets.xcassets */; };
 		0178D5D628E8A41400C4C63B /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0178D5D528E8A41400C4C63B /* CircleImage.swift */; };
+		0178D5D828E8A66700C4C63B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0178D5D728E8A66700C4C63B /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		0178D5CB28E89C8A00C4C63B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0178D5CE28E89C8A00C4C63B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0178D5D528E8A41400C4C63B /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		0178D5D728E8A66700C4C63B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				0178D5C928E89C8A00C4C63B /* ContentView.swift */,
 				0178D5CB28E89C8A00C4C63B /* Assets.xcassets */,
 				0178D5D528E8A41400C4C63B /* CircleImage.swift */,
+				0178D5D728E8A66700C4C63B /* MapView.swift */,
 				0178D5CD28E89C8A00C4C63B /* Preview Content */,
 			);
 			path = "building-landmark-app";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0178D5CA28E89C8A00C4C63B /* ContentView.swift in Sources */,
+				0178D5D828E8A66700C4C63B /* MapView.swift in Sources */,
 				0178D5C828E89C8A00C4C63B /* building_landmark_appApp.swift in Sources */,
 				0178D5D628E8A41400C4C63B /* CircleImage.swift in Sources */,
 			);
